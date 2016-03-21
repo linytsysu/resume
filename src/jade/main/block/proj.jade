@@ -1,0 +1,15 @@
+mixin proj(project)
+    li.list-item.list-header-item
+      span.list-item-title #{project.Name}
+    ul
+      - each item in project.Description
+        li.list-item.list-content-item #{item}
+
+article.section
+  div.sec-header.sec-pro-header
+    span.sec-title-cn 项目经历
+    span.sec-title-en Project Experience
+  div.sec-main
+    ul.sec-list
+      - each project in Projects
+        +proj(project)

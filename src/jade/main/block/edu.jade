@@ -1,0 +1,13 @@
+article.section
+  div.sec-header.sec-edu-header
+    span.sec-title-cn 教育背景
+    span.sec-title-en Education
+  div.sec-main
+    ul.sec-list
+      - each stage in Education
+        li.list-item.list-header-item
+          span.list-item-title #{stage.Year}, #{stage.School}, #{stage.Major}(#{stage.Qualification})
+          if stage.Scholarship.length > 0
+            ul
+              - each item in stage.Scholarship
+                li.list-item.list-content-item #{item.Year}, #{item.Description}

@@ -1,0 +1,15 @@
+mixin ski(skill)
+    li.list-item.list-header-item
+      span.list-item-title #{skill.Name}
+    ul
+      - each item in skill.Description
+        li.list-item.list-content-item #{item}
+
+article.section
+  div.sec-header.sec-pro-header
+    span.sec-title-cn 技能
+    span.sec-title-en Skills
+  div.sec-main
+    ul.sec-list
+      - each skill in Skills
+        +ski(skill)

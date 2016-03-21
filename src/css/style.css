@@ -1,0 +1,219 @@
+body {
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  background-color: lightgrey;
+}
+
+#wrap {
+  width: 850px;
+  height: 1200px;
+  margin: 20px auto;
+}
+.clearfix:after { display: block; content: ''; clear: both; height: 0; visibility: hidden; }
+
+/* sidebar */
+#sidebar {
+  float: left;
+  width: 300px;
+  height: 1200px;
+  color: white;
+  background-color: #376092;
+}
+#sidebar-header {
+  padding: 0 20px;
+  margin-top: 250px;
+}
+#header-name {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+}
+#header-age {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 28px;
+  font-weight: normal;
+}
+#sidebar-infos {
+  padding-left: 20px;
+  margin: 100px 0px 100px 0px;
+}
+#infos-header {
+  font-size: 20px;
+}
+#infos-list {
+  margin-top: 30px;
+}
+.info-item {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  font-size: 14px;
+}
+.info-item:before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-family: FontAwesome;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  color: #376092;
+  background-color: white;
+}
+.info-addr-item:before {
+  content: "\f041"; /* fa-map-marker */
+}
+.info-scho-item:before {
+  content: "\f19c"; /* fa-university */
+}
+.info-major-item:before {
+  content: "\f19d"; /* fa-graduation-cap */
+}
+.info-mail-item:before {
+  content: "\f0e0"; /* fa-envelope */
+}
+.info-phone-item:before {
+  content: "\f095"; /* fa-phone */
+}
+.info-blog-item:before {
+  content: "\f09e"; /* fa-rss */
+}
+.info-github-item:before {
+  content: "\f09b"; /* fa-github */
+}
+.info-qq-item:before {
+  content: "\f1d6"; /* fa-qq */
+}
+.info-weixin-item:before {
+  content: "\f1d7"; /* fa-weixin */
+}
+.info-weibo-item:before {
+  content: "\f18a";
+}
+.info-item span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* main */
+#main {
+  float: left;
+  width: 550px;
+  height: 1200px;
+  line-height: 1.5;
+  background-color: white;
+}
+.section {
+  margin: 10px 20px 10px 20px;
+}
+.section:first-child {
+  margin-top: 30px;
+}
+.sec-header {
+  margin-left: 40px;
+  border-bottom: 5px solid black;
+  font-size: 25px;
+}
+.sec-header:before {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: -45px;
+  border-radius: 40px;
+  font-family: FontAwesome;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+  color: white;
+  background-color: #376092;
+}
+.sec-edu-header:before {
+  content: "\f19d"; /* fa-graduation-cap */
+}
+.sec-pro-header:before {
+  content: "\f0b1"; /* fa-briefcase */
+}
+.sec-ski-header:before {
+  content: "\f0ad"; /* fa-wrench */
+}
+.sec-oth-header:before {
+  content: "\f085"; /* fa-cogs */
+}
+
+.sec-title-cn {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.sec-title-en {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sec-main {
+  padding-left: 8px;
+}
+.sec-list {
+  margin-top: 10px;
+}
+.list-item-title {
+  margin-left: -3px;
+  font-weight: 600;
+}
+.list-item {
+  margin-top: 5px;
+  padding-left: 32px;
+}
+.list-item:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -32px;
+  width: 32px;
+}
+.list-header-item:before {
+  content: "\f046"; /* fa-check-square-o */
+}
+.list-header-item ul {
+  margin-left: -32px;
+}
+.list-content-item {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.list-content-item:before {
+  content: "\f111"; /* fa-circle */
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.3)
+}
+
+@media screen and (max-width: 849px) {
+  #wrap {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  #sidebar {
+    width: 100%;
+    height: 100%;
+  }
+  #sidebar-header{
+    margin-top: 20px;
+  }
+  #sidebar-infos {
+    margin: 30px 0px 30px 0px;
+  }
+  #main {
+    width: 100%;
+    height: 100%;
+  }
+  .section {
+    margin: 10px;
+  }
+  .section:last-child {
+    margin-bottom: 30px;
+  }
+}

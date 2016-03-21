@@ -1,0 +1,78 @@
+{
+    "Infos": {
+        "Name": "林依挺",
+        "Age": "21",
+        "Address": "广东省广州市",
+        "School": "中山大学",
+        "Major": "软件工程",
+        "Email": "linytsysu@163.com",
+        "Phone": "1234567890",
+        "Github": "https://github.com/linytsysu",
+        "Blog": "http://linyiting.me",
+        "QQ": "12345678",
+        "Weixin": "helloworld",
+        "Weibo": "helloworld"
+    },
+    "Education": [
+        {
+            "Year": "2013-至今",
+            "School": "中山大学",
+            "Major": "软件工程",
+            "Qualification":"本科",
+            "Scholarship": [
+                {
+                    "Year":"2013-2014",
+                    "Description":"校二等奖学金"
+                },
+                {
+                    "Year":"2014-2015",
+                    "Description":"校二等奖学金"
+                }
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "Name": "约吗",
+            "Description": [
+                "校内活动发起、组织平台。用户能够发起活动，其他用户能够报名参加该活动并参加对活动的讨论",
+                "后端使用Python/Tornado+Mysql搭建，前端使用Bootstrap编写响应式UI，适应手机屏幕"
+            ]
+        },
+        {
+            "Name": "约吗",
+            "Description": [
+                "校内活动发起、组织平台。用户能够发起活动，其他用户能够报名参加该活动并参加对活动的讨论",
+                "后端使用Python/Tornado+Mysql搭建，前端使用Bootstrap编写响应式UI，适应手机屏幕"
+            ]
+        }
+    ],
+    "Skills": [
+        {
+            "Name": "前端",
+            "Description": [
+                "能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，能处理基本的前端兼容性问题",
+                "熟悉JavaScript，对ECMAScirpt标准有一定的认识",
+                "熟悉AngularJS，有使用Meteor构建简单SPA的经验",
+                "在前端工程中使用Less/CoffeeScript/TypeScirpt等预处理工具",
+                "在前端工程中使用Grunt进行自动化构建，完善工作流"
+            ]
+        },
+        {
+            "Name": "前端",
+            "Description": [
+                "能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，能处理基本的前端兼容性问题",
+                "熟悉JavaScript，对ECMAScirpt标准有一定的认识",
+                "熟悉AngularJS，有使用Meteor构建简单SPA的经验",
+                "在前端工程中使用Less/CoffeeScript/TypeScirpt等预处理工具",
+                "在前端工程中使用Grunt进行自动化构建，完善工作流"
+            ]
+        }
+    ],
+    "Others": [
+        "两年Linux使用经验，熟悉常用命令与配置",
+        "扎实的C/C++语言基础，熟悉不同平台以及编译环境的下的C++新标准",
+        "能够熟练使用git，有使用svn进行代码部署的经验",
+        "能够熟练使用Markdown进行写作，具备良好的技术交流能力"
+    ]
+}

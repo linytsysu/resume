@@ -1,0 +1,32 @@
+mixin list-item(itemName, itemContent)
+  li(class!=attributes.class)
+    span= itemName
+    | !{itemContent}
+
+div#sidebar
+  div#sidebar-header
+    h1#header-name #{Infos.Name}
+    h2#header-age #{Infos.Age}
+  div#sidebar-infos
+    h2#infos-header 个人信息
+    ul#infos-list
+      if Infos.Address
+        +list-item("Address: ", Infos.Address)(class="info-item info-addr-item")
+      if Infos.School
+        +list-item("School: ", Infos.School)(class="info-item info-scho-item")
+      if Infos.Major
+        +list-item("Major: ", Infos.Major)(class="info-item info-major-item")
+      if Infos.Email
+        +list-item("Email: ", Infos.Email)(class="info-item info-mail-item")
+      if Infos.Phone
+        +list-item("Phone: ", Infos.Phone)(class="info-item info-phone-item")
+      if Infos.Github
+        +list-item("Github: ", Infos.Github)(class="info-item info-github-item")
+      if Infos.Blog
+        +list-item("Blog: ", Infos.Blog)(class="info-item info-blog-item")
+      if Infos.QQ
+        +list-item("QQ: ", Infos.QQ)(class="info-item info-qq-item")
+      if Infos.Weixin
+        +list-item("Weixin: ", Infos.Weixin)(class="info-item info-weixin-item")
+      if Infos.Weibo
+        +list-item("Weibo: ", Infos.Weibo)(class="info-item info-weibo-item")

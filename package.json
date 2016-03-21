@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "resume generator",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "linyiting",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
