@@ -1,151 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html></html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="wrap" class="clearfix">
-        <div id="sidebar">
-            <div id="sidebar-header">
-                <h1 id="header-name">林依挺</h1>
-                <h2 id="header-age">21岁</h2>
-            </div>
-            <div id="sidebar-infos">
-                <h2 id="infos-header">个人信息</h2>
-                <ul id="infos-lists">
-                    <li class="info-item info-addr-item">
-                        <span>地址：</span>广东省广州市
-                    </li>
-                    <li class="info-item info-scho-item">
-                        <span>学校：</span>中山大学
-                    </li>
-                    <li class="info-item info-marjor-item">
-                        <span>专业：</span>软件工程
-                    </li>
-                    <li class="info-item info-mail-item">
-                        <span>邮箱：</span>linytsysu@163.com
-                    </li>
-                    <li class="info-item info-phone-item">
-                        <span>手机：</span>18819481270
-                    </li>
-                    <li class="info-item info-github-item">
-                        <span>Github:</span> https://github.com/linytsysu
-                    </li>
-                    <li class="info-item info-blog-item">
-                        <span>Blog:</span> http://linytsysu.github.io
-                    </li>
-                    <li class="info-item info-qq-item">
-                        <span>QQ:</span> 1262213295
-                    </li>
-                    <li class="info-item info-weixin-item">
-                        <span>微信:</span> Eurekalyt
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="main">
-            <article class="section">
-                <div class="sec-header sec-edu-header">
-                    <span class="sec-title-cn">教育背景</span>
-                    <span class="sec-title-en">Education</span>
-                </div>
-                <div class="sec-main">
-                    <ul class="sec-list">
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">2013-至今 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 中山大学 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 软件工程（本科）</span>
-                            <ul>
-                                <li class="list-item list-content-item">2013-2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  校二等奖学金</li>
-                                <li class="list-item list-content-item">2014-2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 校二等奖学金</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-            <article class="section">
-                <div class="sec-header sec-pro-header">
-                    <span class="sec-title">
-                        <span class="sec-title-cn">项目经历</span>
-                        <span class="sec-title-en">Project Experience</span>
-                    </span>
-                </div>
-                <div class="sec-main">
-                    <ul class="sec-list">
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">约吗</span>
-                            <ul>
-                                <li class="list-item list-content-item">校内活动发起、组织平台。用户能够发起活动，其他用户能够报名参加该活动并参加对活动的讨论。</li>
-                                <li class="list-item list-content-item">后端使用Python/Tornado+Mysql搭建，前端使用Bootstrap编写响应式UI，适应手机屏幕。</li>
-                            </ul>
-                        </li>
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">高校筹</span>
-                            <ul>
-                                <li class="list-item list-content-item">使用PHP Yii 框架搭建的社团活动众筹平台。</li>
-                                <li class="list-item list-content-item">负责用户管理模块，实现用户注册、登录、个人信息管理的后端逻辑和前端界面。</li>
-                            </ul>
-                        </li>
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">AfterClass</span>
-                            <ul>
-                                <li class="list-item list-content-item">基于Node.js+MongoDB构建的课程学习交流网站。使用Grunt驱动页面生成、架设本地服务器。</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-            <article class="section">
-                <div class="sec-header sec-ski-header">
-                    <span class="sec-title">
-                        <span class="sec-title-cn">技能</span>
-                        <span class="sec-title-en">Skills</span>
-                    </span>
-                </div>
-                <div class="sec-main">
-                    <ul class="sec-list">
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">前端</span>
-                            <ul>
-                                <li class="list-item list-content-item">能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，能处理基本的前端兼容性问题</li>
-                                <li class="list-item list-content-item">熟悉JavaScript，对ECMAScirpt标准有一定的认识</li>
-                                <li class="list-item list-content-item">熟悉AngularJS，有使用Meteor构建简单SPA的经验</li>
-                                <li class="list-item list-content-item">在前端工程中使用Less/CoffeeScript/TypeScirpt等预处理工具</li>                                
-                                <li class="list-item list-content-item">在前端工程中使用Grunt进行自动化构建，完善工作流</li>                                
-                            </ul>
-                        </li>
-                        <li class="list-item list-header-item">
-                            <span class="list-item-title">后端</span>
-                            <ul>
-                                <li class="list-item list-content-item">熟悉Node.js，能够使用Node.js API / Express搭建WEB 服务器，完成数据交互、模板渲染以及提供RESTful API</li>
-                                <li class="list-item list-content-item">熟悉Python Tornado框架，阅读过其源代码，理解其异步服务编程思想</li>
-                                <li class="list-item list-content-item">熟悉MongoDB，有使用MongoDB/Mysql存储数据，Redis缓存的经验</li>
-                                <li class="list-item list-content-item">有独立建站经验，能够对Apache进行简单的配置，能够熟练配置Nginx进行反向代理</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-            <article class="section">
-                <div class="sec-header sec-oth-header">
-                    <span class="sec-title">
-                        <span class="sec-title-cn">其他</span>
-                        <span class="sec-title-en">Others</span>
-                    </span>
-                </div>
-                <div class="sec-main">
-                    <ul class="sec-list">
-                        <li class="list-item list-content-item">两年Linux使用经验，熟悉常用命令与配置</li>
-                        <li class="list-item list-content-item">扎实的C/C++语言基础，熟悉不同平台以及编译环境的下的C++新标准</li>
-                        <li class="list-item list-content-item">能够熟练使用git，有使用svn进行代码部署的经验</li>
-                        <li class="list-item list-content-item">能够熟练使用Markdown进行写作，具备良好的技术交流能力</li>
-                    </ul>
-                </div>
-            </article>
-        </div>
+  <div id="wrap" class="clearfix">
+    <div id="sidebar">
+      <div id="sidebar-header">
+        <h1 id="header-name">林依挺</h1>
+      </div>
+      <div id="sidebar-subheader">
+        <h2 id="header-gender">男</h2>
+        <h2 id="header-age">24岁</h2>
+      </div>
+      <div id="sidebar-infos">
+        <h2 id="infos-header">个人信息</h2>
+        <ul id="infos-list">
+              <li class="info-item info-addr-item"><span>Address: </span>广东省广州市</li>
+              <li class="info-item info-scho-item"><span>School: </span>中山大学</li>
+              <li class="info-item info-major-item"><span>Major: </span>软件工程</li>
+              <li class="info-item info-education-item"><span>Education: </span>研究生</li>
+              <li class="info-item info-mail-item"><span>Email: </span>linytsysu@163.com</li>
+              <li class="info-item info-phone-item"><span>Phone: </span>18819481270</li>
+              <li class="info-item info-github-item"><span>Github: </span>https://github.com/linytsysu</li>
+              <li class="info-item info-qq-item"><span>QQ: </span>1262213295</li>
+              <li class="info-item info-weixin-item"><span>Weixin: </span>Eurekalyt</li>
+        </ul>
+      </div>
     </div>
+    <div id="main">
+      <article class="section">
+        <div class="sec-header sec-edu-header"><span class="sec-title-cn">教育背景</span><span class="sec-title-en">Education</span></div>
+        <div class="sec-main">
+          <ul class="sec-list">
+            <li class="list-item list-header-item"><span class="list-item-title">2013-2017, 中山大学, 软件工程(本科)</span>
+              <ul>
+                <li class="list-item list-content-item">2013-2016, 连续3年校二等奖学金</li>
+              </ul>
+            </li>
+            <li class="list-item list-header-item"><span class="list-item-title">2017-至今, 中山大学, 软件工程(研究生)</span>
+              <ul>
+                <li class="list-item list-content-item">2017-2018, 校二等奖学金</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="section">
+        <div class="sec-header sec-pro-header"><span class="sec-title-cn">项目经历</span><span class="sec-title-en">Project Experience</span></div>
+        <div class="sec-main">
+          <ul class="sec-list">
+                  <li class="list-item list-header-item"><span class="list-item-title">杯口点餐</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">杯口点餐是一个扫码点餐项目，包括用户点餐H5页面以及商户管理Web页面。本人主要负责商户管理Web页面的编写，在后期使用Vue重构点餐H5页面</li>
+                  </ul>
+                  <li class="list-item list-header-item"><span class="list-item-title">卡包 / 畅客伙伴</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">使用React Native开发的MPOS收款工具以及代理商团队管理APP</li>
+                    <li class="list-item list-content-item">作为项目前端负责人，参与技术选型。使用React Native + Redux + React Navigation构建APP，使用TypeScript语言进行开发，配置ESLint &amp; Prettier统一前端代码风格，参与编写项目的基础组件及基础方法</li>
+                  </ul>
+                  <li class="list-item list-header-item"><span class="list-item-title">微信公开课+</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">&quot;微信公开课+&quot;小程序是微信官方与行业伙伴沟通的工具，为线下微信公开课的免费授课提供线上的相关服务。使用原生微信小程序进行开发，本人负责开发视频直播以及语音直播模块的前端开发，同时对接微信小程序API开发消息通知、卡券领取等功能</li>
+                  </ul>
+                  <li class="list-item list-header-item"><span class="list-item-title">积分兑换项目</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">使用React开发的积分商城兑换H5页面，使用JSBridge与APP WebView进行交互，为了兼容Android对React Native的WebView组件进行扩展</li>
+                  </ul>
+                  <li class="list-item list-header-item"><span class="list-item-title">小游戏项目</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">使用白鹭引擎Egret + TypeScript开发微信小游戏，针对项目需求开发白鹭引擎的第三方加密插件。使用Taro开发游戏盒子类微信小程序，并且使用Ant Design Pro开发游戏盒子管理后台</li>
+                  </ul>
+          </ul>
+        </div>
+      </article>
+      <article class="section">
+        <div class="sec-header sec-ski-header"><span class="sec-title-cn">技能</span><span class="sec-title-en">Skills</span></div>
+        <div class="sec-main">
+          <ul class="sec-list">
+                  <li class="list-item list-header-item"><span class="list-item-title">前端</span></li>
+                  <ul>
+                    <li class="list-item list-content-item">能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，熟练使用HTML模版引擎Jade以及CSS预处理工具Sass/Less，能够处理基本的前端兼容性问题；熟悉JavaScript，熟悉ES6+语法新特性，在项目中使用TypeScript进行开发</li>
+                    <li class="list-item list-content-item">熟悉React/Vue等前端框架，有丰富的React/React Native开发经验，熟悉Webpack/Gulp/Grunt等前端自动化构建工具，熟悉Webpack配置</li>
+                    <li class="list-item list-content-item">熟悉微信小程序开发，参与过微信小程序官方项目的开发与维护。熟悉小游戏开发，有使用白鹭引擎开发游戏的经验</li>
+                    <li class="list-item list-content-item">熟悉Linux常用命令，有shell脚本编写的经验，熟练掌握版本管理工具git，能够熟练使用Markdown进行写作，具备良好的技术交流能力</li>
+                    <li class="list-item list-content-item">熟悉MongoDB，有使用MongoDB/Mysql存储数据，Redis缓存的经验</li>
+                  </ul>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
 </body>
-</html>
