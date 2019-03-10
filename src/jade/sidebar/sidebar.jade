@@ -6,7 +6,9 @@ mixin list-item(itemName, itemContent)
 div#sidebar
   div#sidebar-header
     h1#header-name #{Infos.Name}
-    h2#header-age #{Infos.Age}
+  div#sidebar-subheader
+    h2#header-gender #{Infos.Gender}
+    h2#header-age #{Infos.Age}岁
   div#sidebar-infos
     h2#infos-header 个人信息
     ul#infos-list
@@ -16,6 +18,8 @@ div#sidebar
         +list-item("School: ", Infos.School)(class="info-item info-scho-item")
       if Infos.Major
         +list-item("Major: ", Infos.Major)(class="info-item info-major-item")
+      if Infos.Education
+        +list-item("Education: ", Infos.Education)(class="info-item info-education-item")
       if Infos.Email
         +list-item("Email: ", Infos.Email)(class="info-item info-mail-item")
       if Infos.Phone

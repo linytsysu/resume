@@ -22,22 +22,31 @@ body {
 }
 #sidebar-header {
   padding: 0 20px;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 #header-name {
-  display: inline-block;
+  display: block;
   font-size: 40px;
   font-weight: 500;
 }
+#sidebar-subheader {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+#header-gender {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: normal;
+}
 #header-age {
   display: inline-block;
-  margin-left: 15px;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: normal;
+  margin-left: 20px;
 }
 #sidebar-infos {
   padding-left: 20px;
-  margin: 100px 0px 100px 0px;
+  margin: 80px 0px 100px 0px;
 }
 #infos-header {
   font-size: 20px;
@@ -72,6 +81,9 @@ body {
 }
 .info-major-item:before {
   content: "\f19d"; /* fa-graduation-cap */
+}
+.info-education-item:before {
+  content: "\f0a3"; /* fa-certificate */
 }
 .info-mail-item:before {
   content: "\f0e0"; /* fa-envelope */

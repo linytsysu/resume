@@ -1,31 +1,39 @@
 {
     "Infos": {
         "Name": "林依挺",
-        "Age": "21",
+        "Age": "24",
+        "Gender": "男",
         "Address": "广东省广州市",
         "School": "中山大学",
         "Major": "软件工程",
+        "Education": "研究生",
         "Email": "linytsysu@163.com",
-        "Phone": "1234567890",
+        "Phone": "18819481270",
         "Github": "https://github.com/linytsysu",
-        "Blog": "http://linyiting.me",
-        "QQ": "12345678",
-        "Weixin": "helloworld",
-        "Weibo": "helloworld"
+        "QQ": "1262213295",
+        "Weixin": "Eurekalyt"
     },
     "Education": [
         {
-            "Year": "2013-至今",
+            "Year": "2013-2017",
             "School": "中山大学",
             "Major": "软件工程",
             "Qualification":"本科",
             "Scholarship": [
                 {
-                    "Year":"2013-2014",
-                    "Description":"校二等奖学金"
-                },
+                    "Year":"2013-2016",
+                    "Description":"连续3年校二等奖学金"
+                }
+            ]
+        },
+        {
+            "Year": "2017-至今",
+            "School": "中山大学",
+            "Major": "软件工程",
+            "Qualification":"研究生",
+            "Scholarship": [
                 {
-                    "Year":"2014-2015",
+                    "Year":"2017-2018",
                     "Description":"校二等奖学金"
                 }
             ]
@@ -33,17 +41,34 @@
     ],
     "Projects": [
         {
-            "Name": "约吗",
+            "Name": "杯口点餐",
             "Description": [
-                "校内活动发起、组织平台。用户能够发起活动，其他用户能够报名参加该活动并参加对活动的讨论",
-                "后端使用Python/Tornado+Mysql搭建，前端使用Bootstrap编写响应式UI，适应手机屏幕"
+                "杯口点餐是一个扫码点餐项目，包括用户点餐H5页面以及商户管理Web页面。本人主要负责商户管理Web页面的编写，在后期使用Vue重构点餐H5页面"
             ]
         },
         {
-            "Name": "约吗",
+            "Name": "卡包 / 畅客伙伴",
             "Description": [
-                "校内活动发起、组织平台。用户能够发起活动，其他用户能够报名参加该活动并参加对活动的讨论",
-                "后端使用Python/Tornado+Mysql搭建，前端使用Bootstrap编写响应式UI，适应手机屏幕"
+                "使用React Native开发的MPOS收款工具以及代理商团队管理APP",
+                "作为项目前端负责人，参与技术选型。使用React Native + Redux + React Navigation构建APP，使用TypeScript语言进行开发，配置ESLint & Prettier统一前端代码风格，参与编写项目的基础组件及基础方法"
+            ]
+        },
+        {
+            "Name": "微信公开课+",
+            "Description": [
+                "\"微信公开课+\"小程序是微信官方与行业伙伴沟通的工具，为线下微信公开课的免费授课提供线上的相关服务。使用原生微信小程序进行开发，本人负责开发视频直播以及语音直播模块的前端开发，同时对接微信小程序API开发消息通知、卡券领取等功能"
+            ]
+        },
+        {
+            "Name": "积分兑换项目",
+            "Description": [
+                "使用React开发的积分商城兑换H5页面，使用JSBridge与APP WebView进行交互，为了兼容Android对React Native的WebView组件进行扩展"
+            ]
+        },
+        {
+            "Name": "小游戏项目",
+            "Description": [
+                "使用白鹭引擎Egret + TypeScript开发微信小游戏，针对项目需求开发白鹭引擎的第三方加密插件。使用Taro开发游戏盒子类微信小程序，并且使用Ant Design Pro开发游戏盒子管理后台"
             ]
         }
     ],
@@ -51,28 +76,12 @@
         {
             "Name": "前端",
             "Description": [
-                "能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，能处理基本的前端兼容性问题",
-                "熟悉JavaScript，对ECMAScirpt标准有一定的认识",
-                "熟悉AngularJS，有使用Meteor构建简单SPA的经验",
-                "在前端工程中使用Less/CoffeeScript/TypeScirpt等预处理工具",
-                "在前端工程中使用Grunt进行自动化构建，完善工作流"
-            ]
-        },
-        {
-            "Name": "前端",
-            "Description": [
-                "能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，能处理基本的前端兼容性问题",
-                "熟悉JavaScript，对ECMAScirpt标准有一定的认识",
-                "熟悉AngularJS，有使用Meteor构建简单SPA的经验",
-                "在前端工程中使用Less/CoffeeScript/TypeScirpt等预处理工具",
-                "在前端工程中使用Grunt进行自动化构建，完善工作流"
+                "能够编写语义化HTML，模块化CSS，熟悉HTML5/CSS3的标准化新特性，熟练使用HTML模版引擎Jade以及CSS预处理工具Sass/Less，能够处理基本的前端兼容性问题；熟悉JavaScript，熟悉ES6+语法新特性，在项目中使用TypeScript进行开发",
+                "熟悉React/Vue等前端框架，有丰富的React/React Native开发经验，熟悉Webpack/Gulp/Grunt等前端自动化构建工具，熟悉Webpack配置",
+                "熟悉微信小程序开发，参与过微信小程序官方项目的开发与维护。熟悉小游戏开发，有使用白鹭引擎开发游戏的经验",
+                "熟悉Linux常用命令，有shell脚本编写的经验，熟练掌握版本管理工具git，能够熟练使用Markdown进行写作，具备良好的技术交流能力",
+                "熟悉MongoDB，有使用MongoDB/Mysql存储数据，Redis缓存的经验"
             ]
         }
-    ],
-    "Others": [
-        "两年Linux使用经验，熟悉常用命令与配置",
-        "扎实的C/C++语言基础，熟悉不同平台以及编译环境的下的C++新标准",
-        "能够熟练使用git，有使用svn进行代码部署的经验",
-        "能够熟练使用Markdown进行写作，具备良好的技术交流能力"
     ]
 }
